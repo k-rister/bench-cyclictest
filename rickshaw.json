@@ -6,7 +6,7 @@
     },
     "benchmark": "cyclictest",
     "controller": {
-        "post-script": "%bench-dir%cyclictest-post-process"
+        "post-script": "%bench-dir%cyclictest-post-process.py"
     },
     "client": {
         "files-from-controller": [
