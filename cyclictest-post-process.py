@@ -68,7 +68,7 @@ def main():
             ],
         }
 
-        with open("post-process-data.json", "w") as f:
+        with open("postprocess/post-process-data.json", "w") as f:
             json.dump(sample_data, f)
 
 
