@@ -14,8 +14,8 @@ Bash — all scripts
 | `cyclictest-client` | Client-side benchmark execution |
 | `cyclictest-server-start` / `cyclictest-server-stop` | Server lifecycle management |
 | `cyclictest-runtime` | Extracts runtime from command-line options |
-| `cyclictest-post-process` | Parses cyclictest output into crucible metrics |
-| `workshop.json` | Engine image build: compiles rt-tests from source |
+| `cyclictest-post-process.py` | Parses cyclictest output into crucible metrics |
+| `client-workshop.json` / `server-workshop.json` | Engine image build: compiles rt-tests from source |
 | `rt-tests-sched-headers.patch` | Patch applied to rt-tests source during build |
 
 ## Conventions
