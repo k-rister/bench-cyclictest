@@ -12,5 +12,5 @@ Scripts and configuration to run the [cyclictest](https://wiki.linuxfoundation.o
 | `cyclictest-client` | Client execution script |
 | `cyclictest-server-start` / `cyclictest-server-stop` | Server lifecycle scripts |
 | `cyclictest-runtime` | Runtime extraction |
-| `cyclictest-post-process` | Post-processing: parses cyclictest output into crucible metrics |
-| `workshop.json` | Engine image build: compiles rt-tests from source |
+| `cyclictest-post-process.py` | Post-processing: parses cyclictest output into crucible metrics |
+| `client-workshop.json` / `server-workshop.json` | Engine image build: compiles rt-tests from source |
